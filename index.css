@@ -1,0 +1,237 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'HK Grotesk', sans-serif;
+  font-size: 15px;
+}
+
+.fd-container{
+  width: calc(100% -10%);
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 25px;
+  /* background-color: #1f1fb1; */
+  box-sizing: border-box;
+}
+
+/* General */
+.fd-model{
+  width: calc(100% - 32px);
+  transition: 0.3s box-shadow, 0.3s transform;
+  border-radius: 6px;
+  margin: 10px 0 10px 0;
+  padding: 16px;
+  background-color: white;
+  border: 2px solid rgba(0,0,0,0.12);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,29,124,0.05);
+}
+
+.fd-edit{
+  position: absolute;
+  /* width: 20px;
+  height: 20px;
+  background-color: red; */
+  right: 15px;
+  bottom: 15px;
+}
+
+.fd-edit-pencil{
+  width: 18px;
+  height: 18px;
+  transition: 0.3s all;
+  display: inline-block;
+  background: url(./assets/icons/pencil.svg);
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  color: #666666 !important;
+}
+/* End general */
+
+/* Profile */
+#fd-profile{
+  position: relative;
+  height: 250px;
+}
+
+.fd-profile-data{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#fd-profile-image{
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0) url("https://cdn-photos.occ.com.mx/images/photos/300x300/bdf/bdf57771d6d34c3e83f09929791f29b9.jpg") no-repeat scroll center center / cover;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+/* End profile */
+
+/* Contacts */
+#fd-contacts{
+  position: relative;
+  height: 100px;
+}
+
+.fd-contacts-data > h3{
+  margin-bottom: 25px;
+}
+/* End contacts */
+
+/* Objective */
+#fd-objective{
+  position: relative;
+  height: 100px;
+}
+
+.fd-objective-data > h3{
+  margin-bottom: 25px;
+}
+
+.fd-objective-data > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.fd-position{
+  padding-right: 25px;
+}
+
+.fd-salary{
+  padding-right: 25px;
+}
+/* End objective */
+
+/* Experience */
+#fd-experience{
+  height: 100px;
+  position: relative;
+}
+
+.fd-experience-data > h3{
+  margin-bottom: 25px;
+}
+/* End experience */
+
+/* Epecialty */
+#fd-epecialty{
+  height: auto;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.fd-epecialty-data > h3{
+  margin-bottom: 25px;
+}
+
+.fd-epecilty-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fd-epecilty-container > div{
+  padding: 0 12px;
+  border: 1px solid #dddddd;
+  border-radius: 16px;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  height: 32px;
+  outline: 0;
+  max-width: 100%;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s all;
+  align-items: center;
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.fd-epecilty-container > div:not(:last-child){
+  margin-right: 8px;
+}
+/* End epecialty */
+
+/* Abilities */
+#fd-abilities{
+  height: auto;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.fd-abilities-data > h3{
+  margin-bottom: 25px;
+}
+
+.fd-abilities-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fd-abilities-container > div{
+  padding: 0 12px;
+  border: 1px solid #dddddd;
+  border-radius: 16px;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  height: 32px;
+  outline: 0;
+  max-width: 100%;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s all;
+  align-items: center;
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.fd-abilities-container > div:not(:last-child){
+  margin-right: 8px;
+}
+/* End abilities */
+
+/* Education */
+#fd-education{
+  height: auto;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.fd-education-data > h3{
+  margin-bottom: 25px;
+}
+
+.fd-education-container > div{
+  margin-bottom: 25px;
+}
+/* End education */
+
+/* Languages */
+#fd-languages{
+  height: 100px;
+  position: relative;
+}
+/* End languages */
+
+/* Courses */
+#fd-courses{
+  height: 100px;
+  position: relative;
+}
+/* End courses */
+
+/* Links */
+#fd-links{
+  height: 100px;
+  position: relative;
+}
+/* End links */
